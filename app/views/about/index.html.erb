@@ -1,1 +1,29 @@
-<h1>RED Animations</h1>
+<header class='clearfix'>
+  <div class="nav-contact">
+    <ul>
+      <li><%= link_to "CONTACT", root_path %></li>
+    </ul>
+  </div>
+  <div class="nav-about">
+    <ul>
+      <li><%= link_to "ABOUT |", root_path %></li>
+    </ul>
+  </div>
+  <div class="nav-services">
+    <ul>
+      <li><%= link_to " SERVICES |", root_path %></li>
+    </ul>
+  </div>
+  <div class="nav-home">
+    <ul>
+      <li><%= link_to "HOME |", root_path %></li>
+    </ul>
+  </div>
+
+  <div class="portfolio-text">
+    <%= link_to "PORTFOLIO", root_path %>
+  </div>
+
+    <%= image_tag("logo.png", class: 'logo') %>
+    <%= image_tag("button-portfolio.png", class: 'button-portfolio') %>
+</header>

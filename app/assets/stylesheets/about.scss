@@ -1,3 +1,58 @@
 // Place all the styles related to the About controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: https://sass-lang.com/
+
+body {
+  background-image: image-url("homepage_background.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 600px;
+}
+
+header {
+  padding: 10px;
+
+  ul {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-weight: lighter;
+    font-family: 'Poppins', sans-serif;
+    margin-left: 4px;
+    float: right;
+    font-size: smaller;
+    letter-spacing: 2px;
+  }
+
+  .logo {
+    max-width: 50%;
+    height: auto;
+    position: absolute;
+    top: 280px;
+    left: 50px;
+  }
+
+  .button-portfolio {
+    max-width: 25%;
+    height: auto;
+    position: absolute;
+    top: 660px;
+    left: 240px;
+    mix-blend-mode: darken;
+  }
+}
+
+.portfolio-text {
+  font-size: 30px;
+  font-style: italic;
+  letter-spacing: 20px !important;  /* this isn't working */
+  position: absolute;
+  top: 760px;
+  left: 380px;
+  z-index: 1;
+}
