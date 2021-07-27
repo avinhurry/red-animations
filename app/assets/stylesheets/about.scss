@@ -35,6 +35,9 @@ header {
     position: absolute;
     top: 280px;
     left: 50px;
+    @media only screen and (max-width: 900px) {
+      top: 200px;
+    }
   }
 
   .button-portfolio {
@@ -44,6 +47,10 @@ header {
     top: 660px;
     left: 240px;
     mix-blend-mode: darken;
+    @media only screen and (max-width: 900px)  {
+      top: 350px;
+      left: 130px;
+    }
   }
 }
 
@@ -55,4 +62,10 @@ header {
   top: 760px;
   left: 380px;
   z-index: 1;
+  @media only screen and (max-width: 900px)  {
+    top: 390px;
+    left: 170px;
+    font-size: 20px;
+    position: absolute;
+  }
 }
