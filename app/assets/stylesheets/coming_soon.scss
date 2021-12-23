@@ -1,0 +1,23 @@
+.coming-soon {
+  color: #CCCCCC;
+  text-align: center;
+  font-size: xx-large;
+  font-family: Helvetica;
+  letter-spacing: 5px;
+  font-weight: lighter;
+  @media only screen and (max-width: 900px)  {
+    font-size: medium;
+  }
+}
+
+
+.logo {
+  max-width: 50%;
+  height: auto;
+  position: absolute;
+  top: 280px;
+  left: 50px;
+  @media only screen and (max-width: 900px) {
+    top: 200px;
+  }
+}
